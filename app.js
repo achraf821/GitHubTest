@@ -39,9 +39,8 @@ function clicking() {
     } else {
         ageyear = todayyear - year;
     }
-
     console.log("You are "+ageyear+" years old");
-    document.getElementById("output").textContent = "You are "+ageyear+" years old" ;
+    document.getElementById("output").textContent = "You are "+ageyear+" years old";
 
 }
 
